@@ -1,0 +1,15 @@
+body {
+	@font-face: 'Arial';
+	background-color: #000;
+	color: #FFF;
+}
+
+a.project { 
+	text-decoration:none;
+	// text-shadow: -3px 2px #BBB; 
+	color: #0F0;
+}
+a.project:hover { 
+	text-shadow: -3px 2px #0099FF; 
+	color: #FFF;
+}
