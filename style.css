@@ -1,15 +1,38 @@
 body {
 	font-family: 'Arial', 'sans-serif';
-	background-color: #000;
-	color: #FFF;
+  margin-top: 0px;
+  margin-left: 0px;
+	background-color: #CCCCCC;
+	color: #000;
+}
+
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.header {
+  height: 125px;
+  background-color: #000;
+}
+
+.b00ty {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.f00ter {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a { 
 	text-decoration:none;
 	// text-shadow: -3px 2px #BBB; 
-	color: #0F0;
+	color: #3366FF;
 }
 a.project:hover { 
-	text-shadow: -3px 2px #6699FF; 
-	color: #FFF;
+	text-shadow: 2px 2px #66cccc; 
+	color: #3366FF;
 }
