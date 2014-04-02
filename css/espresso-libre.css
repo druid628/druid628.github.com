@@ -1,0 +1,101 @@
+/**
+ * Espresso Libre theme
+ *
+ * Adapted from Ultraviolet RubyGem
+ *
+ * @author Flinn Mueller
+ * @version 1.0
+ */
+pre {
+    background-color: #3F3F3F;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 0px;
+    padding: 10px;
+/*    color: #bdae9d; */
+    color: #f8f8ff; 
+    font-size: 14px;
+/*    margin-bottom: 20px; */
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .support.class, pre .support.type {
+	color: #6d79de;
+}
+
+pre .support.constant {
+    color: #00af0e;
+}
+
+pre .constant.language {
+    color: #585cf6;
+}
+
+pre .support.function {
+    font-weight: bold;
+    color: #7290d9;
+}
+
+pre .string {
+    /*color: #049b0a;*/
+    color: #00FF40;
+}
+
+pre .constant.numeric {
+    color: #44aa43;
+}
+
+pre .keyword, pre .storage {
+    color: #43a8ed; 
+}
+
+pre .entity.function {
+    color: #00fa9a;
+    /* color: #ff9358; */
+}
+
+pre .comment {
+    color: #0066ff;
+    font-style: italic;
+}
+
+pre .constant.symbol {
+    color:#c5656b;
+}
+
+pre .variable.instance, pre .variable.language, pre .constant {
+    color: #318495;
+}
+
+#footer {
+  font-size: 1em; 
+  line-height: 1.4; 
+  background: #3F3F3F;
+  color: #fff;
+  height: auto;
+}
+
+#footer .center {
+  text-align: center;
+}
+
+#footer a         { color: #B2D0B4; }
+#footer a:visited { color: #B2D0B4; }
+#footer a:hover   { color: #B2D0B4; }
+#footer a:focus   { outline: thin dotted; }
+#footer a:hover, a:active { outline: 0; }
+
+.push
+{
+  height: 8em;
+  clear: both;
+}
+
+.small-push
+{
+  height: 3em;
+  clear: both;
+}
